@@ -1,0 +1,30 @@
+.contact-container {
+    width: 100%;
+    min-height: 100vh;
+
+    .contact-title {
+        width: 40%;
+        background-color: $secondary;
+        color: $primary;
+        position: absolute;
+        top: 50px;
+        height: 60px;
+        left: 0;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact-content {
+        position: absolute;
+        top: 200px;
+        left: 30%;
+        width: 40%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+    }
+}
